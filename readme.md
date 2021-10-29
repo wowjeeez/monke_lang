@@ -166,12 +166,6 @@ braincell result = channel value {
 |* eq 20|
 }
 std##bark(result); //will print "true"
-//--------------
-braincell value = 10;
-braincell result = channel @value { //will throw an exception because an immutable reference is used
-|* multip 10|
-|* eq 20|
-}
 ```
 ### Operators
 Every operator is available as a regular function too. (`eq(20, 10)` is the exact same as `20 eq 10`)
