@@ -13,7 +13,7 @@ You can return values with the `yell` keyword. Returning a value will immediatel
 You can call functions with the `fnName(args...)` notation
 
 ##### Variables
-Variables are declared by the `braincell` and `fluid_braincell` keyword, followed by the name then the initializer.
+Variables are declared with the `braincell` and `fluid_braincell` keyword, followed by the name then the initializer.
 ```
 // Mutable variable
 fluid_braincell myVar = 10;
@@ -68,7 +68,7 @@ nest myNameSpace {
 braincell val = myNameSpace##myPrivateVar; //will throw an error, since its a private field
 ```
 ##### Importing namescapes
-Namespaces can be imported by the `bite` keyword.
+Namespaces can be imported using the `bite` keyword.
 ```
 bite std; //will import the whole std namespace
 bite std##{bark} //will import std##bark only
