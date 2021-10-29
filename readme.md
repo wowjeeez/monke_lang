@@ -168,23 +168,23 @@ braincell result = channel value {
 std##bark(result); //will print "true"
 ```
 ### Operators
-Every operator is available as a regular function too. (`eq(20, 10)` is the exact same as `20 eq 10`)
-`eq`: Checks if 2 values are equal (`20 eq 10` => `false`)
-`not-eq`: Checks if 2 values are not equal (`20 not-eq 10` => `true`)
-`bigR`: Checks if value 1 is bigger than value 2 (`20 bigR 10` => `false`)
-`smolR`: Checks if value 1 is smaller than value 2 (`20 bigR 10` => `false`)
-`bigr`: Checks if value 1 is bigger than or equal to value 2 (`10 bigr 10` => `true`)
-`smolr`: Checks if value 1 is smaller than or equal to value 2 (`10 smolr 10` => `true`)
-`multip`: Multiples a value by the other (`20 multip 10` => `200`)
-`div`: Divides 2 numbers (`20 div 10` => `2`)
-`rem`: Gets the remainder of 2 numbers (`14 rem 3` => `2`)
-`add`: Adds 2 numbers togehter (`2 add 3` => `5`)
-`sub`: Subtracts 2 numbers (`2 sub 3` => `-1`)
-`pow`: Gets the power of 2 numbers (`4 pow 3` => `64`)
-`sqrt`: Gets the square root of a number (`sqrt 4` => `2`)
-`rt`: Gets the value1-th root of value2 (`4 rt 16` => `2`)
-`and`: AND operator
-`or`: OR operator
+Every operator is available as a regular function too. (`eq(20, 10)` is the exact same as `20 eq 10`) <br>
+`eq`: Checks if 2 values are equal (`20 eq 10` => `false`) <br>
+`not-eq`: Checks if 2 values are not equal (`20 not-eq 10` => `true`) <br>
+`bigR`: Checks if value 1 is bigger than value 2 (`20 bigR 10` => `false`) <br>
+`smolR`: Checks if value 1 is smaller than value 2 (`20 bigR 10` => `false`) <br>
+`bigr`: Checks if value 1 is bigger than or equal to value 2 (`10 bigr 10` => `true`) <br>
+`smolr`: Checks if value 1 is smaller than or equal to value 2 (`10 smolr 10` => `true`) <br>
+`multip`: Multiples a value by the other (`20 multip 10` => `200`) <br>
+`div`: Divides 2 numbers (`20 div 10` => `2`) <br>
+`rem`: Gets the remainder of 2 numbers (`14 rem 3` => `2`) <br>
+`add`: Adds 2 numbers togehter (`2 add 3` => `5`) <br>
+`sub`: Subtracts 2 numbers (`2 sub 3` => `-1`) <br>
+`pow`: Gets the power of 2 numbers (`4 pow 3` => `64`) <br>
+`sqrt`: Gets the square root of a number (`sqrt 4` => `2`) <br>
+`rt`: Gets the value1-th root of value2 (`4 rt 16` => `2`) <br>
+`and`: AND operator <br>
+`or`: OR operator <br>
 
 ### Ternary operators
 ```
