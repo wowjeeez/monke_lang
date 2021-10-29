@@ -1,0 +1,18 @@
+{
+  "name": "monke_lang",
+  "version": "1.0.0",
+  "description": "A programming language written in TypeScript but with actual planning",
+  "main": "dist/index.js",
+  "author": "wowjeeez",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^16.10.1",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc --build --verbose",
+    "test": "node ."
+  },
+  "dependencies": {}
+}
