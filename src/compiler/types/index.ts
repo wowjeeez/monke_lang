@@ -13,7 +13,8 @@ export interface Tokens {
         private: boolean | UnknownAtParse,
         mutable: boolean | UnknownAtParse
         type: Types | UnknownAtParse,
-        parent: Tokens["NAMESPACE"]
+        parent: Tokens["NAMESPACE"],
+        name: string
     }
     VALUE_REF: {
         pointsTo: Tokens["VALUE"]

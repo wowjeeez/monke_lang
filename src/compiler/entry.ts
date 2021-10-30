@@ -9,11 +9,10 @@ export default function compileChunk(source: string, chunkName: string) {
 
     tokens.forEach((tok, pos) => {
         if (KeywordRT.includes(tok)) {
-            console.log("Valid keyword", tok)
             switch (<Keywords>tok) {
                 case "bite":
                     const imports = parseImport(tokens[pos + 1])
-
+                    console.log(imports)
             }
         }
     })

@@ -19,11 +19,12 @@ if (source.includes("##") && RE_MULTIPLE.test(source)) {
 }
 return {
     imports: ns,
-    exposes: imports == "*" ? UNK_AT_PARSE : [{
+    exposes: imports == "*" ? UNK_AT_PARSE : (<string[]>imports).map((imp) => ({
         mutable: UNK_AT_PARSE,
         parent: ns,
         private: UNK_AT_PARSE,
-        type: UNK_AT_PARSE
-    }]
+        type: UNK_AT_PARSE,
+        name: imp
+    }))
 }
 }
