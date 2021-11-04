@@ -33,9 +33,9 @@ export interface Locator {
 }
 
 
-export type Keywords = "bite" | "braincell" | "uff" | "wuff" | "uff-wuff" | "map" | "fluid_braincell" | "coconut" | "please" | "smh" | "channel"
+export type Keywords = "bite" | "braincell" | "uff" | "wuff" | "uff-wuff" | "map" | "fluid_braincell" | "coconut" | "please" | "smh" | "channel" | "nest"
 
-export const KeywordRT = ["bite" , "braincell" , "uff" , "wuff" , "uff-wuff" , "map" , "fluid_braincell" , "coconut" , "please" , "smh" , "channel"]
+export const KeywordRT = ["bite" , "braincell" , "uff" , "wuff" , "uff-wuff" , "map" , "fluid_braincell" , "coconut" , "please" , "smh" , "channel", "nest"]
 
 export interface Keyword {
     treePos: number
